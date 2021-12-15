@@ -4,7 +4,7 @@
 <script language="Javascript">
   var lugar, i;
   lugar = new Array();
-  for(i=0; i<5; i++)
+  for(i=0; i<15; i++)
   {
       lugar[i] = false;
   }
@@ -49,12 +49,12 @@
     <table border='2'>
     <form name="frm">
         <script language="Javascript">
-         var i;
-        for(i = 0; i<40; i++)
+         var i,j;
+        for(i = 0; i<15; i++)
         { 
             document.write("</tr>");
          
-            for(j = 0; j<15; j++)
+            for(j = 0; j<40; j++)
             {
 
            document.write("<td align='center'>");
